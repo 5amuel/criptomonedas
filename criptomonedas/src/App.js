@@ -30,7 +30,7 @@ const Heading = styled.h1`
     width: 100px;
     height: 6px;
     background-color: #66A2FE;
-    display:block;
+    display:block;  
   }
 
 `

@@ -22,8 +22,12 @@ const Boton = styled.input`
 
 const Fomulario = () => {
 
+    const MONEDAS = [
+        
+    ]
+
 //Utilizar useMoneda
-const [moneda, SelectMonedas, actualizarState] = useMoneda();
+const [moneda, SelectMonedas, actualizarState] = useMoneda('Elige tu moneda ', '');
 
     return ( 
         <form>
